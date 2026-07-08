@@ -4,17 +4,17 @@
 class Apimetrics < Formula
   desc "APImetrics CLI"
   homepage "https://apimetrics.io"
-  version "0.0.1-beta-2"
+  version "0.0.1-beta-3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://storage.googleapis.com/apimetrics-cli/0.0.1-beta-2/apimetrics-0.0.1-beta-2-darwin-amd64.tar.gz"
-      sha256 "2f8b41f31638a38bd4bcc7d59c10e57b5aba785dc77e982371a232e992247f2b"
+      url "https://github.com/APImetrics/APImetrics-cli/releases/download/v0.0.1-beta-3/apimetrics-0.0.1-beta-3-darwin-amd64.tar.gz"
+      sha256 "8568b06a49355fa7710ebcd0dca440b19275dad97a69a4d689c0d368beb7631f"
     end
     on_arm do
-      url "https://storage.googleapis.com/apimetrics-cli/0.0.1-beta-2/apimetrics-0.0.1-beta-2-darwin-arm64.tar.gz"
-      sha256 "e037c9ced7210138d57c8f71d7fe899b6c0189dc961140bcd1b22864d015e2e6"
+      url "https://github.com/APImetrics/APImetrics-cli/releases/download/v0.0.1-beta-3/apimetrics-0.0.1-beta-3-darwin-arm64.tar.gz"
+      sha256 "b54b4b6609c8acdd42a70664ab7f6d830f6024a35c20db3f9f69d556141252cb"
     end
   end
 
